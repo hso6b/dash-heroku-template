@@ -121,6 +121,7 @@ fig_boxes.update_layout(showlegend=True)
 
 stylesheets = ['https://necolas.github.io/normalize.css/8.0.1/normalize.css']
 app = dash.Dash(__name__, external_stylesheets=stylesheets)
+server = app.server
 
 colors = {
     'background': 'grey'
